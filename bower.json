@@ -1,0 +1,22 @@
+{
+  "name": "symanto-angular-loadingindicatorservice",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Symanto/Angular-LoadingIndicatorService",
+  "authors": [
+    "Robin-Manuel Thiel <robin-manuel.thiel@symanto.net>"
+  ],
+  "main": "LoadingIndicatorService.js",
+  "keywords": [
+    "angular",
+	"loading"
+	"symanto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
