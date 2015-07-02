@@ -8,7 +8,7 @@
   "main": "LoadingIndicatorService.js",
   "keywords": [
     "angular",
-	"loading"
+	"loading",
 	"symanto"
   ],
   "license": "MIT",
