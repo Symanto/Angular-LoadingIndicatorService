@@ -18,7 +18,7 @@ loading.service("LoadingIndicatorService", function () {
 
         // Start the loading indicator only at the first one
         if (running > 0) {
-            angular.extend(this.indicatorVisibleStatus, { "visible": true });
+            angular.extend(indicatorVisibleStatus, { "visible": true });
         }
     };
 
@@ -31,7 +31,7 @@ loading.service("LoadingIndicatorService", function () {
 
         // Hide the loading indicator, if it was the last one.
         if (running == 0) {
-            angular.extend(this.indicatorVisibleStatus, { "visible": false });
+            angular.extend(indicatorVisibleStatus, { "visible": false });
         }
     };
 
@@ -40,7 +40,7 @@ loading.service("LoadingIndicatorService", function () {
      * @returns {indicatorVisibleStatus}
      */
     var getCurrentState = function() {
-        return this.indicatorVisibleStatus;
+        return indicatorVisibleStatus;
     };
 
     return {
