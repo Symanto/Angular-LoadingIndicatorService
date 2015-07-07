@@ -15,7 +15,7 @@ angular.module("Application.Root", [
 ```
 The LoadingIndicatorService is designed to operate in the background and updates the visibility property by itsself whenever needed. Therefore the best way to use it is bindig this variable to the visibility of the UI element that you want to show whenever the application is busy. To do so, we recommend the following steps:
 
-####1. Resolve the indicatorVisibleStatus in your root state####
+#####1. Resolve the indicatorVisibleStatus in your root state
 ```javascript
 $stateProvider.state('root', {
     controller: "RootController",
